@@ -27,7 +27,7 @@ const DustbinTable = ({ dustbins }) => {
         </thead>
         <tbody className="bg-white divide-y divide-gray-200">
           {dustbins.map((dustbin, index) => (
-            <tr key={dustbin.id} className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}>
+            <tr key={dustbin.id} className={`${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-gray-100`}>
               <td className="px-6 py-4 whitespace-nowrap">
                 <div className="flex items-center">
                   <div className="flex-shrink-0 h-8 w-8 bg-blue-100 rounded-full flex items-center justify-center">

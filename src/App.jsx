@@ -7,7 +7,7 @@ import "./styles/global.css";
 import "semantic-ui-css/semantic.min.css"; // Import Semantic UI CSS
 
 const App = () => (
-  <Container>
+  <Container className="min-w-full">
     <Header />
     <Dashboard />
     <Footer />
